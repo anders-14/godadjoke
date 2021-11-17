@@ -8,8 +8,4 @@ lint:
 	@printf "[CMD] "
 	golint ./...
 
-test:
-	@printf "[CMD] "
-	go test ./...
-
-.PHONY: fmt lint all test
+.PHONY: all fmt lint
